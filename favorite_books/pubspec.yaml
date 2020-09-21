@@ -1,0 +1,25 @@
+name: favorite_books
+description: A HiveDB sample project that demonstrates simple use of HiveDB.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  hive:
+  hive_flutter:
+  path_provider: ^1.6.16
+  file_picker: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
